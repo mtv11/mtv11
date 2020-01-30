@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+</head>
+<body>
+
+<h2>Friend Application</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend>Account</legend>
+		<div class="field">
+			<label>Email:</label> 
+			<input type="text" name="email">
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat password:</label> 
+			<input type="password" name="password_r">
+        </div>
+        <div class="field">
+                <label>race:</label> 
+                <input type="text" name="race">
+            </div>
+	</fieldset>
+   
+    <Label>how are you</Label>
+        <input type="radio" name="answer" value="good"> Yes<br> <input type="radio" name="answer" value="bad"> No
+
+	<fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>Can you hangout whenever?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+            <input type="radio" name="legal" value="no">No
+            <input type="radio" name="legal" value="Maybe">Maybe
+            <input type="radio" name="legal" value="sometimes">sometimes
+		</div>
+		<div class="field">
+			<label>What type of position are you seeking? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="position_pt" value="parttime">Part time</li>
+				<li><input type="checkbox" name="position_ft" value="fulltime">Full time</li>
+				<li><input type="checkbox" name="position_sl" value="seasonal">Seasonal</li>
+				<li><input type="checkbox" name="position_best" value="forever">BFF</li>
+				<li><input type="checkbox" name="position_OK" value="Weekends">weekends</li>
+			</ul>
+		</div>
+		<div class="field">
+            <label>Favorite food</label>
+            <select name="favorite food"> <option value="pizza">pizza</option> <option value="spagetti">spagetti</option> <option value="cheese">Fiat</option> <option value="raddish">raddish</option> </select>
+
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>Why do you deserve to be my friend?</label><br>
+			<textarea name="essay" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>tell me something fun about yourself:</label><br>
+			<textarea name="essay" rows="6" cols="60"></textarea>
+        </div>
+        <div class="field">
+                <label>what do you wanna do first?:</label><br>
+                <textarea name="essay" rows="6" cols="60"></textarea>
+            </div>
+	</fieldset>
+
+    <input type="submit" value="Submit form">
+    
+    
+</form>
+</body>
+</html>
